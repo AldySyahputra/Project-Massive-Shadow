@@ -704,3 +704,45 @@ a.text-primary:hover {
   font-size: 12px;
   color: #999;
 }
+
+.trending {
+  margin-top: 40px;
+}
+
+.trending-article {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.trending-article img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.trending-content h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.trending-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.trending-content span {
+  font-size: 12px;
+  color: #999;
+}
+
+.custom-margin {
+  margin-left: -200px;
+}
+
+.card-body span {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 5px;
+}
