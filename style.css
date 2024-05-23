@@ -751,3 +751,77 @@ a.text-primary:hover {
   color: #555;
   margin-bottom: 5px;
 }
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+  width: 150px;
+}
+.nav-link {
+  color: #000 !important;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+.nav-item i {
+  margin-right: 5px;
+}
+.header-search {
+  display: flex;
+  align-items: center;
+}
+.header-search input {
+  margin-right: 10px;
+}
+.header-search img {
+  width: 40px;
+  margin-right: 10px;
+}
+.content-container {
+  margin-top: 80px;
+  padding: 20px;
+}
+.breadcrumb {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb-item {
+  font-size: 10px;
+}
+
+.breadcrumb-item a {
+  color: #000 !important;
+}
+
+.untuk-kamu-img img {
+  width: 300px;
+  height: 180px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.article-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.article-content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.initial-letter {
+  float: left;
+  font-size: 4em;
+  line-height: 1;
+  margin-right: 10px;
+  font-weight: bold;
+}
