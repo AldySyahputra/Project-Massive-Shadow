@@ -431,11 +431,12 @@ a.text-primary:hover {
 
 .text-primary1 {
   font-size: 15px;
-  color: #007bff;
+  color: #000000;
   text-decoration: none;
 }
 
 .text-primary1:hover {
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -824,4 +825,44 @@ a.text-primary:hover {
   line-height: 1;
   margin-right: 10px;
   font-weight: bold;
+}
+
+.challenge-banner {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-banner h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.challenge-banner button {
+  margin-top: 20px;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.btn-group .btn {
+  margin: 5px;
+}
+
+.artist-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #000;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.btn-outline-dark {
+  margin-right: 10px;
 }
